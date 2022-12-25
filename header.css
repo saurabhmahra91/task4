@@ -2,7 +2,7 @@
 
 .header {
     background-color: green;
-    min-width: 750px;
+    min-width: 768px;
     display: flex;
     justify-content: center;
     /* position: fixed; */
@@ -26,7 +26,7 @@
     text-align: top;
 }
 
-.nav-center-item {
+.nav-center-item{
     font-family: Poppins;
     /* font-weight: bold; */
     /* font-size: x-large; */
@@ -89,5 +89,19 @@ svg path {
     .logo {
         display: inline;
 
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .header
+    {
+        display: none;
+    }
+}
+@media screen and (min-width:768px) {
+    .header-mobile
+    {
+        display: none;
     }
 }
