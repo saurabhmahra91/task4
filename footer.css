@@ -1,0 +1,25 @@
+
+footer
+{
+    padding: 1rem 0 0 1rem;
+}
+.footer-first
+{
+    display: flex;
+    justify-content: space-around;
+    /* width: 1000px; */
+    min-width: 500px;
+}
+.footer-second
+{
+    /* width: 1000px; */
+    min-width: 500px;
+}
+.social-button
+{
+    width: 40px;
+}
+.social-button svg path 
+{
+    fill: black;
+}

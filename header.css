@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.header {
+    background-color: green;
+    min-width: 750px;
+    display: flex;
+    justify-content: center;
+    /* position: fixed; */
+}
+
+.headerwrapper {
+    width: 1200px;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline;
+}
+
+.nav {
+    display: inline;
+    text-align: top;
+}
+
+.nav-center-item {
+    font-family: Poppins;
+    /* font-weight: bold; */
+    /* font-size: x-large; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    color: white;
+    text-transform: lowercase;
+}
+
+#rightnav {
+    display: flex;
+    align-items: center;
+}
+
+button.darkmode {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    text-align: bottom;
+}
+
+button.login,
+button.signin {
+    background: white;
+    border-radius: .1rem;
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    margin: 0 0.5rem 0 0.5rem;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    text-align: top;
+    font-family: Poppins;
+    text-transform: lowercase;
+}
+
+button.login:hover,
+button.signin:hover {
+    background: rgb(0, 112, 0);
+    color: white;
+}
+
+svg {
+    fill: red;
+    color: red;
+}
+
+svg path {
+    fill: red;
+    color: red;
+}
+
+@media (min-width:768px) {
+    .logo {
+        display: inline;
+
+    }
+}
